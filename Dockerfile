@@ -1,5 +1,5 @@
 FROM alpine:3.4
-MAINTAINER Alex Shemshurenko <alexshe@wix.com>
+MAINTAINER Boaz <boazc@github.com>
 
 RUN apk update
 

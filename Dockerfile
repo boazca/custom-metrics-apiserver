@@ -5,7 +5,9 @@ RUN apk update
 
 RUN mkdir /logs
 
-COPY test-adapter /adaptor
+COPY test-adapter/test-adapter /adaptor
+
+RUN chmod +x /adaptor
 
 COPY start.sh /start.sh
 RUN chmod 777 /start.sh

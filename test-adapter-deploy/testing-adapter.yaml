@@ -54,7 +54,7 @@ spec:
         image: boaz225/kube-custom-metrics:latest
         imagePullPolicy: IfNotPresent
         args:
-        - /adapter
+        - /adaptor
         - --secure-port=6443
         - --logtostderr=true
         - --v=10

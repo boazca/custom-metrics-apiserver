@@ -51,7 +51,7 @@ spec:
       serviceAccountName: custom-metrics-apiserver
       containers:
       - name: custom-metrics-apiserver
-        image: boaz225/kube-custom-metrics:latest
+        image: boaz225/kube-custom-metrics:4.9.19
         imagePullPolicy: IfNotPresent
         args:
         - /adaptor
